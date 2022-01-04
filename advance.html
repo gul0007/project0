@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>advance search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+ <div class="header-advanced">
+     <div class="header-advanced-logo">
+     <a href="index.html">
+         <img src="download.png"/>
+     </a>
+
+     </div>
+     <div class="head-links">
+     <a href="index.html">google search</a>
+     <a  href="images.html">google images</a>
+     </div>
+</div>
+
+<div class = "bar">
+     <label>advanced search</label>
+</div>
+<div class="separator-line"></div>
+<div class="advanced-search-container">
+
+
+    <form action="https://www.google.com/search" method="get">
+        <label>Find pages with</label>
+        <div class="whitespace"></div>
+        <label>To do this in the search box.</label>
+        <div class="form-group">
+            <label>all these words:</label>
+            <input type="text" name="as_q">
+            <div class="identify">
+                type only important words: <span class="mono">cat</span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label>this exact word or phrase:</label>
+            <input type="text" name="as_epq">
+            <div class="identify">
+                put exact word inside quotes: <span class="mono">"cat"</span>
+</div>
+        </div>
+        <div class="form-group">
+            <label>any of these words: </label>
+            <input type="text" name="as_oq">
+            <div class="identify">
+                type Or between all the words you want
+</div>
+        </div>
+        <div class="form-group">
+            <label>none of these words:</label>
+            <input type="text" name="as_eq">
+            <div class="identify">
+               put an appropriate sign before the words you dont want <span class="mono">(-,+) </span>
+</div>
+        </div>
+        <div class="form-group">
+            <label></label>
+            <div class="right-align">
+                <input type="submit" class="advanced-search" value="Google Advanced Search">
+            </div>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
